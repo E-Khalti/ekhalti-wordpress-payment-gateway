@@ -17,7 +17,7 @@
  *
  * @package    Ekhalti_payment_gateway
  * @subpackage Ekhalti_payment_gateway/public
- * @author     e-Khalti
+ * @author     e-Khalti <support@e-khalti.com>
  */
 use Moltin\Cart\Cart;
 use Moltin\Cart\Storage\Session;

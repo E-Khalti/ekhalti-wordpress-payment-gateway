@@ -18,7 +18,7 @@
  * @since      1.0.0
  * @package    Ekhalti_payment_gateway
  * @subpackage Ekhalti_payment_gateway/includes
- * @author     e-Khalti.com
+ * @author     e-Khalti <support@e-khalti.com>
  */
 class Ekhalti_payment_gateway_Deactivator {
 

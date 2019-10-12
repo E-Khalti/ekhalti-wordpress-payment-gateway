@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Ekhalti_payment_gateway
  * @subpackage Ekhalti_payment_gateway/includes
- * @author     e-Khalti.com
+ * @author     shashikant <shashikant.marskole@gmail.com>
  */
 class Ekhalti_payment_gateway {
 
@@ -166,7 +166,7 @@ class Ekhalti_payment_gateway {
         $this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts');
         /**
          * settings
-         *
+         * 
          */
         $this->loader->add_action('init', $plugin_admin, 'init');
         $this->loader->add_action('admin_menu', $plugin_admin, 'admin_menu');
@@ -200,15 +200,15 @@ class Ekhalti_payment_gateway {
         $this->loader->add_action('wp_ajax_nopriv_ek_get_cart', $plugin_public, 'ekhalti_get_cart_handle');
         $this->loader->add_action('wp_ajax_nopriv_ek_remove_from_cart', $plugin_public, 'ekhalti_remove_from_cart_handle');
         $this->loader->add_action('wp_ajax_nopriv_ek_clear_cart', $plugin_public, 'ekhalti_clear_cart_handle');
+        
 
-
-
+        
 
 
 
         /**
-         *
-         *
+         * 
+         * 
          */
         $this->loader->add_action('init', $plugin_public, 'wp_ekhalti_gateway_response');
         $this->loader->add_action('wp_ajax_ekhalti_gateway_response', $plugin_public, 'handle_ekhalti_gateway_response');
